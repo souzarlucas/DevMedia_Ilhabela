@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Estadual de Ilhabela</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        nav {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        nav a {
+            color: #2e8b57;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        nav a.active {
+            border-bottom: 2px solid #21825c;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a id="tab-inicio-btn" class="active">Início</a>
+        <a id="tab-trilhas-btn">Trilhas e Passeios</a>
+    </nav>
+
+    <!-- Início -->
+    <div id="tab-inicio" class="tab-content active">
+        <h1>Parque Estadual de Ilhabela</h1>
+        <div class="descricao">
+            <p>
+                O Parque Estadual de Ilhabela é um dos principais destinos de ecoturismo do Brasil, localizado no litoral norte de São Paulo. Com mais de 85% do arquipélago protegido, oferece trilhas, cachoeiras, praias e uma biodiversidade única.
+            </p>
+            <div class="curiosidade-area">
+                <button id="btn-curiosidade">Mostrar curiosidade</button>
+                <div id="curiosidade"></div>
+            </div>
+        </div>
+    </div>
+
+        <section>
+            <h2>Fundação</h2>
+            <p>
+                Ilhabela foi fundada em 3 de setembro de 1805. O Parque Nacional foi criado em 1977 para preservar a Mata Atlântica e a rica fauna e flora da região.
+            </p>
+        </section>
+
+        <section>
+            <h2>Tranquilidade e Segurança</h2>
+            <p>
+                Ilhabela é reconhecida pela hospitalidade e segurança. O policiamento é reforçado em épocas de alta temporada e a comunidade local é acolhedora.
+            </p>
+        </section>
+
+        <section>
+            <h2>Paisagens de Tirar o Fôlego</h2>
+            <p>
+                O parque oferece paisagens impressionantes: montanhas, cachoeiras, praias paradisíacas e trilhas ecológicas. Entre os destaques estão a Praia do Bonete, Cachoeira da Laje, Pico do Baepi, Praia de Castelhanos e Trilha do Pico do Papagaio.
+            </p>
+        </section>
+
+        <section>
+            <h2>Entrada</h2>
+            <p>
+                A entrada no Parque Nacional de Ilhabela é <strong>franca</strong>. Algumas trilhas e passeios exigem acompanhamento de guias credenciados.
+            </p>
+        </section>
+
+        <div class="galeria">
+            <div class="galeria-item">
+                <img src="imagens/Vista da Praia do Bonete.jpg" alt="Praia do Bonete, Ilhabela">
+                <div class="legenda">Vista da Praia do Bonete</div>
+            </div>
+            <div class="galeria-item">
+                <img src="imagens/Cachoeira da Laje.avif" alt="Cachoeira da Laje, Ilhabela">
+                <div class="legenda">Cachoeira da Laje</div>
+            </div>
+            <div class="galeria-item">
+                <img src="imagens/Vista do Pico do Baepi.avif" alt="Vista do Pico do Baepi, Ilhabela">
+                <div class="legenda">Vista do Pico do Baepi</div>
+            </div>
+            <div class="galeria-item">
+                <img src="imagens/Trilha da Praia do Bonete.jpg" alt="Trilha da Praia do Bonete">
+                <div class="legenda">Trilha da Praia do Bonete</div>
+            </div>
+            <div class="galeria-item">
+                <img src="imagens/Queda d'água da Cachoeira da Laje.avif" alt="Queda d'água da Cachoeira da Laje">
+                <div class="legenda">Queda d'água da Cachoeira da Laje</div>
+            </div>
+            <div class="galeria-item">
+                <img src="imagens/Vista do Pico do Baepi no Entardecer.avif" alt="Vista do Pico do Baepi no Entardecer">
+                <div class="legenda">Vista do Pico do Baepi no Entardecer</div>
+            </div>
+        </div>
+
+        <p class="info-contato">
+            Para mais informações sobre passeios, trilhas e hospedagem, acesse os sites ou entre em contato com as empresas e órgãos oficiais abaixo.
+        </p>
+
+    <div class="contato">
+        <div class="contato-cards">
+            <div class="contato-card">
+                <strong>Secretaria de Turismo de Ilhabela</strong>
+                <div class="contato-dados">
+                    <span class="contato-info">Endereço: Av. Princesa Isabel, 446 - Centro, Ilhabela/SP, 11630-000</span>
+                    <a href="mailto:turismo@ilhabela.sp.gov.br"><span style="color:#fff;">E-mail:</span> turismo@ilhabela.sp.gov.br</a>
+                    <a href="tel:+551238921780"><span style="color:#fff;">Tel:</span> (12) 3892-1780</a>
+                </div>
+                <div class="contato-links">
+                    <a href="https://www.instagram.com/ilhabelaturismo/" target="_blank">
+                        <img src="imagens/instagram.png" alt="Instagram" class="icon"> Instagram
+                    </a>
+                    <a href="https://www.ilhabelaturismo.sp.gov.br/" target="_blank">Site Oficial</a>
+                </div>
+            </div>
+            <div class="contato-card">
+                <strong>IlhabelaTur - Agência de Turismo</strong>
+                <div class="contato-dados">
+                    <span class="contato-info">Endereço: Av. Força Expedicionária Brasileira, 98 - Perequê, Ilhabela/SP, 11630-000</span>
+                    <a href="mailto:contato@ilhabelatur.com.br"><span style="color:#fff;">E-mail:</span> contato@ilhabelatur.com.br</a>
+                    <a href="tel:+551238961111"><span style="color:#fff;">Tel:</span> (12) 3896-1111</a>
+                </div>
+                <div class="contato-links">
+                    <a href="https://www.instagram.com/ilhabelatur/" target="_blank">
+                        <img src="imagens/instagram.png" alt="Instagram" class="icon"> Instagram
+                    </a>
+                    <a href="https://www.ilhabelatur.com.br/" target="_blank">Site Oficial</a>
+                </div>
+            </div>
+            <div class="contato-card">
+                <strong>Ilhabela Paradise Turismo</strong>
+                <div class="contato-dados">
+                    <span class="contato-info">Endereço: Av. Princesa Isabel, 747 - Centro, Ilhabela/SP, 11630-000</span>
+                    <a href="mailto:contato@ilhabelaparadise.com.br"><span style="color:#fff;">E-mail:</span> contato@ilhabelaparadise.com.br</a>
+                    <a href="tel:+551238961010"><span style="color:#fff;">Tel:</span> (12) 3896-1010</a>
+                </div>
+                <div class="contato-links">
+                    <a href="https://www.instagram.com/ilhabelaparadise/" target="_blank">
+                        <img src="imagens/instagram.png" alt="Instagram" class="icon"> Instagram
+                    </a>
+                    <a href="https://www.ilhabelaparadise.com.br/" target="_blank">Site Oficial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trilhas e Passeios -->
+    <div id="tab-trilhas" class="tab-content">
+        <h1>Trilhas e Passeios em Ilhabela</h1>
+        <div class="descricao">
+            <p>
+                Ilhabela possui dezenas de trilhas para todos os níveis de aventureiros. Conheça algumas das principais:
+            </p>
+        </div>
+        <section>
+            <h2>Trilha do Bonete</h2>
+            <p>
+                Uma das trilhas mais famosas do Brasil, com cerca de 12 km, passando por cachoeiras e mirantes até chegar à Praia do Bonete.
+            </p>
+        </section>
+        <section>
+            <h2>Trilha de Castelhanos</h2>
+            <p>
+                Acesso por trilha ou 4x4, leva até a Praia de Castelhanos, uma das mais bonitas do país.
+            </p>
+        </section>
+        <section>
+            <h2>Pico do Baepi</h2>
+            <p>
+                Trilha íngreme até o topo do Pico do Baepi, com vista panorâmica de toda a ilha.
+            </p>
+        </section>
+        <section>
+            <h2>Trilha do Pico do Papagaio</h2>
+            <p>
+                Caminhada de nível médio, com visual incrível do alto do Pico do Papagaio.
+            </p>
+        </section>
+        <section>
+            <h2>Dicas de Segurança</h2>
+            <ul>
+                <li>Leve água, protetor solar e repelente.</li>
+                <li>Use roupas e calçados adequados.</li>
+                <li>Prefira trilhas com guias credenciados.</li>
+                <li>Respeite a natureza e não deixe lixo nas trilhas.</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+    // Alterna entre as abas
+    const btnInicio = document.getElementById('tab-inicio-btn');
+    const btnTrilhas = document.getElementById('tab-trilhas-btn');
+    const tabInicio = document.getElementById('tab-inicio');
+    const tabTrilhas = document.getElementById('tab-trilhas');
+
+    btnInicio.onclick = function() {
+        btnInicio.classList.add('active');
+        btnTrilhas.classList.remove('active');
+        tabInicio.classList.add('active');
+        tabTrilhas.classList.remove('active');
+    };
+    btnTrilhas.onclick = function() {
+        btnTrilhas.classList.add('active');
+        btnInicio.classList.remove('active');
+        tabTrilhas.classList.add('active');
+        tabInicio.classList.remove('active');
+    };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
