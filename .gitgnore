@@ -1,0 +1,25 @@
+# Node.js / JavaScript
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.parcel-cache/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/ # Se usar Jupyter Notebooks
+*.env
+.vscode/ # Opcional: Se sua pasta .vscode tem configurações de usuário que não devem ser versionadas
